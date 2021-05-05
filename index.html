@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Finding Dream Car Landing page</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Auto Dream</h2>
+      <div class="toggle" ></div>
+      
+    </header>
+
+   
+
+  <video src="video1.m4v" muted loop autoplay></video>>  
+
+    <div class="overlay"></div>
+
+    <div class="text">
+      <h2>Don't know</h2>
+      <h3>Which Car to buy</h3>
+      <h4>Save on average Rs15,000 off RRP</h4>
+      <p>Compare offers on new & nearly new cars, from top rated local and Indian trusted car dealers at effective price. </p>
+      <a href="#"> Seleect your Car</a><br>
+      <a href="#"> Note sure what you want?</a>
+
+    </div>
+
+    <ul class="social">
+      <li><a href="#"><img src="facebook.png" alt=""></a></li>
+      <li><a href="#"><img src="twitter.png" alt=""></a></li>
+      <li><a href="#"><img src="instagram.png" alt=""></a></li>
+    </ul>
+
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Log in</a></li>
+      <li><a href="#">Build your new car</a></li>
+      <li><a href="#">New cars</a></li>
+      <li><a href="#">Used cars</a></li>
+      <li><a href="#">Car reviews</a></li>
+      <li><a href="#">Car deals</a></li>
+      <li><a href="#">Electric cars</a></li>
+      <li><a href="#">Buying guides & news</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>
